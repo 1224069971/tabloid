@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+}
+.main{
+	background: url(img/psd29667.png);
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+}
+.cover img{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+h1{
+	font-size: 77.88px;
+	letter-spacing: 12px;
+	margin: 0;
+	color: #fa8a43;
+	position: absolute;
+	left: 64.5%;
+	top: 15%;
+}
+h2{
+	font-size: 18px;
+	color: #fa8a43;
+	position: absolute;
+	left: 65%;
+	top: 44%;
+}
+p{
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+h3{
+	font-size: 14px;
+	padding-top: 80px;
+}
+button{
+	font-size: 14px;
+	position: absolute;
+	left: 65%;
+	top:75%;
+	background-color: #FA8A43;
+	border-radius: 65px;
+	height: 40px;
+	width: 145px;
+	border: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	z-index: 99;
+	cursor: pointer;
+}
+p,h3{
+	position: absolute;
+	left: 65%;
+	top:50%;
+	color: #fff;
+}
+h4{
+	font-size: 38px;
+	margin: 0;
+	padding: 30px 0 0 35px;
+	color: #FFFFFF;
+}
+h5{
+	font-size: 24px;
+	margin: 0;
+	padding: 8px 0 0 35px;
+	color: #FFFFFF;
+}
+.circle{
+	width: 110px;
+	height: 110px;
+	background-color: #FA8A43;
+	border-radius:100px;
+	box-shadow:0 0 53px rgba(0,0,0,0.5);
+	position: absolute;
+	left: 1.5%;
+	top:4%;
+}
+.circle img{
+	width: 75px;
+padding: 14px 0 0 16px;
+}
+.circle2{
+	width: 150px;
+	height: 150px;
+	background-color: #FA8A43;
+	border-radius:100px;
+	box-shadow:0px 12px 8px -12px #000;
+	position: absolute;
+	left: 50%;
+	top:45%;
+}
+.icon{
+	position: absolute;
+	top:90%;
+	left:88%;
+	z-index: 99;
+}
+.icon img{
+	width: 20px;
+}
+.icon a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 10px;
+	margin-right: 4px;
+}
